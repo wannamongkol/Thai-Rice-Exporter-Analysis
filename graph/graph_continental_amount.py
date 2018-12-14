@@ -5,10 +5,10 @@ from itertools import groupby
 
 
 def main():
-    file = open('2016.csv', 'r', encoding='utf-8')
+    file = open('../data/2016.csv', 'r', encoding='utf-8')
     data = csv.reader(file)
     table = [row for row in data]
-    year = 2016
+    year = 2559
     asia = [year, 0, 0, 0]
     europe = [year, 0, 0, 0]
     africa = [year, 0, 0, 0]
@@ -47,7 +47,7 @@ def main():
                 australiaandoceania[3] += float(item[5])
                 australiaandoceania[2] += float(item[4])
     bar_chart = pygal.Bar(legend_at_bottom=True)
-    bar_chart.title = 'ยอดปริมาตรส่งออกข้าวแต่ละทวีปปี2559 (1:10,000,000กิโลกรัม)'
+    bar_chart.title = ('ยอดปริมาตรส่งออกข้าวแต่ละทวีปปี%i (1:10,000,000กิโลกรัม)' %year)
     bar_chart.add(asia[1], asia[2]/10000000)
     bar_chart.add(europe[1], europe[2]/10000000)
     bar_chart.add(africa[1], africa[2]/10000000)
@@ -55,5 +55,5 @@ def main():
     bar_chart.add(centeralamerica[1], centeralamerica[2]/10000000)
     bar_chart.add(southamerica[1], southamerica[2]/10000000)
     bar_chart.add(australiaandoceania[1], australiaandoceania[2]/10000000)
-    bar_chart.render_to_file('graph-continental-amount2559.svg')
+    bar_chart.render_to_file('graph-continental-amount%i.svg' %year)
 main()
