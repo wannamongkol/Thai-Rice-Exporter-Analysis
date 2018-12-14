@@ -9,4 +9,5 @@
   5. เทียบยอดขายของทุกปี
   6. เทียบปริมาตรส่งออกของทุกปี
 ## ข้อมูลที่ใช้ในการวิจัย
-ข้อมูลยอดขายข้าวหอมมะลิ
+ข้อมูลยอดขายข้าวหอมมะลิจากกรมการค้าระหว่างประเทศ
+  - http://www.dft.go.th/th-th/dft-service-data-statistic/cid/604?fbclid=IwAR0xwCuYHwXnhDvJy40Mh0MGUjDADrHKzOPU0RgEkeT2_Ym6Dxl-D-hT418
