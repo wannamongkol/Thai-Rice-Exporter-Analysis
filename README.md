@@ -21,4 +21,4 @@
 |<img src="website/img/team/01.jpg" width="120px" height="120px">|<img src="website/img/team/02.jpg" width="120px" height="120px">|<img src="website/img/team/03.jpg" width="120px" height="120px">|<img src="website/img/team/04.jpg" width="120px" height="120px">|
 |:---:|:---:|:---:|:---:|
 |[oilseal12345](https://github.com/oilseal12345)|[wannamongkol](https://github.com/wannamongkol)|[Itthidej](https://github.com/Itthidej)|[newza10139](https://github.com/newza10139)|
-|Teerapat<br>Kraisrisirikul|Wannamongkol<br>Sriwan|Itthidej<br>Aramsri|Sutthichai<br>Chokjaroen|
+|Littikrai<br>Sakunpaisanwari|Wannamongkol<br>Sriwan|Itthidej<br>Aramsri|Sutthichai<br>Chokjaroen|
