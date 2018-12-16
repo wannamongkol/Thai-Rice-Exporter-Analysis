@@ -1,0 +1,68 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+.container{
+  margin-top: 20px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #d35400;
+}
+.nav-pills .nav-link{
+  color: #d35400;
+  background-color: #ecf0f1;
+}
+
+.carousel-item {
+  height: auto;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+}
+.nav-item{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.top{
+  background: #f39c12;
+  height: 500px;
+  width:100%;
+}
+.font-class{
+  padding-top:200px;
+  text-align: center;
+  color:#fff;
+}
+.carousel-control-prev {
+  width: 10%;
+  top: 45%;
+  bottom: 45%;
+  left: -10%;
+  opacity: .9;
+}
+
+.carousel-control-next {
+  width: 10%;
+  top: 45%;
+  bottom: 45%;
+  right: -10%;
+  opacity: .9;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 1.8em;
+    width: 1.8em;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 70%, 70%;
+    border-radius: 100%;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    background-color: #fec136;
+}
