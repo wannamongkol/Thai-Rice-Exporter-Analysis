@@ -11,3 +11,7 @@
 ## ข้อมูลที่ใช้ในการวิจัย
 ข้อมูลยอดขายข้าวหอมมะลิจากกรมการค้าระหว่างประเทศ
   - http://www.dft.go.th/th-th/dft-service-data-statistic/cid/604?fbclid=IwAR0xwCuYHwXnhDvJy40Mh0MGUjDADrHKzOPU0RgEkeT2_Ym6Dxl-D-hT418
+## Libraries
+  1. pygal
+  2. csv
+  3. groupby
