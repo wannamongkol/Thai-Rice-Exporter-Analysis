@@ -3,7 +3,7 @@ import pygal
 import csv
 
 def main():
-    years = range(2014, 2017+1)
+    years = range(2557, 2560+1)
     year2557 = []
     year2558 = []
     year2559 = []
@@ -30,16 +30,16 @@ def main():
         elif int(table[1][0]) == 2017:
             year2560.append(totalvalue)
             year2560.append(totalquantity)
-    line_chart = pygal.Line()
-    line_chart.title = 'ยอดขายในแต่ละปี (หนึ่งต่อพันล้านบาท)'
-    line_chart.x_labels = map(str, range(2557, 2561))
-    line_chart.add('ยอดขาย(พันล้าน)', [ year2557[0]/1000000000, year2558[0]/1000000000, year2559[0]/1000000000, year2560[0]/1000000000] )
-    line_chart.render_to_file('graph-allyear-circulation.svg' )
+    bar_chart = pygal.Bar()
+    bar_chart.title = 'ยอดขายในแต่ละปี (หนึ่งต่อพันล้านบาท)'
+    bar_chart.x_labels = map(str, range(2557, 2561))
+    bar_chart.add('ยอดขาย(พันล้าน)', [ year2557[0]/1000000000, year2558[0]/1000000000, year2559[0]/1000000000, year2560[0]/1000000000] )
+    bar_chart.render_to_file('graph-allyear-circulation2.svg' )
 
-    line_chart = pygal.Line()
-    line_chart.title = 'ปริมาตรส่งออกในแต่ละปี (หนึ่งต่อร้อยล้านกิโลกรัม)'
-    line_chart.x_labels = map(str, range(2557, 2561))
-    line_chart.add('ปริมาตร', [ year2557[1]/100000000, year2558[1]/100000000, year2559[1]/100000000, year2560[1]/100000000] )
-    line_chart.render_to_file('graph-allyear-quantity.svg' )
+    bar_chart = pygal.Bar()
+    bar_chart.title = 'ปริมาตรส่งออกในแต่ละปี (หนึ่งต่อร้อยล้านกิโลกรัม)'
+    bar_chart.x_labels = map(str, range(2557, 2561))
+    bar_chart.add('ปริมาตร', [ year2557[1]/100000000, year2558[1]/100000000, year2559[1]/100000000, year2560[1]/100000000] )
+    bar_chart.render_to_file('graph-allyear-quantity2.svg' )
 
 main()
