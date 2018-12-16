@@ -17,3 +17,5 @@
   1. pygal
   2. csv
   3. groupby
+## Member
+|<img src="website/img/team/01.jpg" width="120px" height="120px">|<img src="website/img/team/02.jpg" width="120px" height="120px">|<img src="website/img/team/03.jpg" width="120px" height="120px">|<img src="website/img/team/04.jpg" width="120px" height="120px">|
